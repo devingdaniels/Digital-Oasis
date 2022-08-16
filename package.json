@@ -1,0 +1,24 @@
+{
+  "name": "ratatouille",
+  "version": "1.0.0",
+  "description": "",
+  "private": true,
+  "scripts": {
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/devingdaniels/ratatouille.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/devingdaniels/ratatouille/issues"
+  },
+  "homepage": "https://github.com/devingdaniels/ratatouille#readme",
+  "devDependencies": {
+    "webpack": "^5.74.0",
+    "webpack-cli": "^4.10.0"
+  }
+}
