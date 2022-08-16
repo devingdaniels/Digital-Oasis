@@ -16,7 +16,7 @@
   \*************************************************************/
 /***/ ((module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/noSourceMaps.js */ \"./node_modules/css-loader/dist/runtime/noSourceMaps.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__);\n// Imports\n\n\nvar ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));\n// Module\n___CSS_LOADER_EXPORT___.push([module.id, \"h1{\\n    background-color: green;\\n}\", \"\"]);\n// Exports\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);\n\n\n//# sourceURL=webpack://ratatouille/./src/style.css?./node_modules/css-loader/dist/cjs.js");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/noSourceMaps.js */ \"./node_modules/css-loader/dist/runtime/noSourceMaps.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__);\n// Imports\n\n\nvar ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));\n// Module\n___CSS_LOADER_EXPORT___.push([module.id, \"*{\\n    box-sizing: border-box;\\n    margin: 0;\\n    padding: 0;\\n}\\n\\n/* HEADER SECTION START */\\n\\nheader{\\n    text-align: center;\\n}\\n\\nnav{\\n    display: flex;\\n    gap: 2%;\\n    justify-content: center;\\n}\\n\\nmain{\\n  background-color: antiquewhite;\\n  height: 100px;\\n  width: 80%;\\n  margin: auto;\\n}\\n\\n.ratatouilleTitle{\\n    font-size: 6rem;\\n    font-family: cursive;\\n}\\n\\n/* HEADER SECTION END */\\n\\n\\n/* BUTTON STYLING START*/\\n\\n.nav-button {\\n  background-color: #FFFFFF;\\n  border: 1px solid #222222;\\n  border-radius: 8px;\\n  box-sizing: border-box;\\n  color: #222222;\\n  cursor: pointer;\\n  display: inline-block;\\n  font-family: Circular,-apple-system,BlinkMacSystemFont,Roboto,\\\"Helvetica Neue\\\",sans-serif;\\n  font-size: 16px;\\n  font-weight: 600;\\n  line-height: 20px;\\n  margin: 0;\\n  outline: none;\\n  padding: 13px 23px;\\n  position: relative;\\n  text-align: center;\\n  text-decoration: none;\\n  touch-action: manipulation;\\n  transition: box-shadow .2s,-ms-transform .1s,-webkit-transform .1s,transform .1s;\\n  user-select: none;\\n  -webkit-user-select: none;\\n  width: auto;\\n}\\n\\n.nav-button:focus-visible {\\n  box-shadow: #222222 0 0 0 2px, rgba(255, 255, 255, 0.8) 0 0 0 4px;\\n  transition: box-shadow .2s;\\n}\\n\\n.nav-button:active {\\n  background-color: #F7F7F7;\\n  border-color: #000000;\\n  transform: scale(.96);\\n}\\n\\n/* BUTTON STYLING END */\\n\\n\\n/* MEDIA QUERY START */\\n\", \"\"]);\n// Exports\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);\n\n\n//# sourceURL=webpack://ratatouille/./src/style.css?./node_modules/css-loader/dist/cjs.js");
 
 /***/ }),
 
@@ -110,13 +110,23 @@ eval("\n\n/* istanbul ignore next  */\nfunction styleTagTransform(css, styleElem
 
 /***/ }),
 
-/***/ "./src/homepage.js":
-/*!*************************!*\
-  !*** ./src/homepage.js ***!
-  \*************************/
+/***/ "./src/contact.js":
+/*!************************!*\
+  !*** ./src/contact.js ***!
+  \************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"createHome\": () => (/* binding */ createHome)\n/* harmony export */ });\n/* harmony import */ var _style_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./style.css */ \"./src/style.css\");\n\n\nfunction createHome(){\n    const el = document.createElement('h1')\n    el.innerHTML = \"Homepage\"\n    return el\n}\n\n\n\n\n//# sourceURL=webpack://ratatouille/./src/homepage.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"renderContactPage\": () => (/* binding */ renderContactPage)\n/* harmony export */ });\n\n\n\n\n\n\n\n\n\nfunction renderContactPage(){\n    \n    alert('This will append the contact page layout to the main container')\n\n}\n\n\n\n\n\n//# sourceURL=webpack://ratatouille/./src/contact.js?");
+
+/***/ }),
+
+/***/ "./src/home.js":
+/*!*********************!*\
+  !*** ./src/home.js ***!
+  \*********************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"renderHomePage\": () => (/* binding */ renderHomePage)\n/* harmony export */ });\n/* harmony import */ var _style_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./style.css */ \"./src/style.css\");\n\n\n\n\nfunction test(){\n    const test = document.createElement('h1')\n    \n    return test\n}\n\n\nfunction renderHomePage(){\n    const main = document.querySelector('main')\n    \n    main.append(test())\n\n}\n\n\n\n\n\n\n\n//# sourceURL=webpack://ratatouille/./src/home.js?");
 
 /***/ }),
 
@@ -126,7 +136,27 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
   \**********************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _homepage__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./homepage */ \"./src/homepage.js\");\n\n\nconst content = document.getElementById('content')\n\ncontent.appendChild((0,_homepage__WEBPACK_IMPORTED_MODULE_0__.createHome)())\n\n//# sourceURL=webpack://ratatouille/./src/index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _ratatouille__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./ratatouille */ \"./src/ratatouille.js\");\n// this will load the landing page for the website \n\n// render the initial site \n(0,_ratatouille__WEBPACK_IMPORTED_MODULE_0__.renderRatatouilleWebsite)()\n\n\n\n\n\n\n//# sourceURL=webpack://ratatouille/./src/index.js?");
+
+/***/ }),
+
+/***/ "./src/menu.js":
+/*!*********************!*\
+  !*** ./src/menu.js ***!
+  \*********************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"renderMenuPage\": () => (/* binding */ renderMenuPage)\n/* harmony export */ });\n// export all the menu content that will be appended to \"content\"\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nfunction renderMenuPage(){\n    \n    alert('This will append the menu page layout to the main container')\n\n}\n\n\n\n\n\n\n\n//# sourceURL=webpack://ratatouille/./src/menu.js?");
+
+/***/ }),
+
+/***/ "./src/ratatouille.js":
+/*!****************************!*\
+  !*** ./src/ratatouille.js ***!
+  \****************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"renderRatatouilleWebsite\": () => (/* binding */ renderRatatouilleWebsite)\n/* harmony export */ });\n/* harmony import */ var _style_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./style.css */ \"./src/style.css\");\n/* harmony import */ var _home__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./home */ \"./src/home.js\");\n/* harmony import */ var _menu__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./menu */ \"./src/menu.js\");\n/* harmony import */ var _contact__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./contact */ \"./src/contact.js\");\n// Styling module\n\n// HTML page modules \n\n\n\n\n\n\nfunction createHeader(){\n    // Main header element \n    const header = document.createElement('header')\n    // create an H1 for the title \n    const restaurantTitle = document.createElement('h1')\n    restaurantTitle.classList.add('ratatouilleTitle')\n    restaurantTitle.innerHTML = \"Ratatouille\"\n    // Add the restaurant title to the header\n    header.append(restaurantTitle)\n    // After title, append the nav bar with nav buttons\n    header.append(createNavbar())\n    // Return object includes title h1 and nav bar with 3 buttons\n    return header\n}\n\nfunction createNavbar(){\n    const navbar = document.createElement('nav')\n\n// Create the home button \n    const homeButton = document.createElement('button')\n    homeButton.classList.add('nav-button')\n    homeButton.innerHTML = \"Home\"\n    homeButton.addEventListener('click', e=>{\n        // check if page needs to be updated\n        if (homeButton.classList.contains('active')) return\n        updateActiveStatus(homeButton)\n        ;(0,_home__WEBPACK_IMPORTED_MODULE_1__.renderHomePage)()\n    })\n\n// Create the menu button \n    const menuButton = document.createElement('button')\n    menuButton.classList.add('nav-button')\n    menuButton.innerHTML = \"Menu\"\n    menuButton.addEventListener('click', ()=>{\n         // check if page needs to be updated\n         if (menuButton.classList.contains('active')) return\n         updateActiveStatus(menuButton)\n         ;(0,_menu__WEBPACK_IMPORTED_MODULE_2__.renderMenuPage)()\n    })\n\n// Create the contact button\n    const contactButton = document.createElement('button')\n    contactButton.classList.add('nav-button')\n    contactButton.innerHTML = \"Contact\"\n    contactButton.addEventListener('click', ()=>{\n         // check if page needs to be updated\n         if (contactButton.classList.contains('active')) return\n         updateActiveStatus(contactButton)\n         ;(0,_contact__WEBPACK_IMPORTED_MODULE_3__.renderContactPage)()\n    })\n\n\n// Append the buttons to the nav bar\n    navbar.append(homeButton)\n    navbar.append(menuButton)\n    navbar.append(contactButton)\n\n// Return object is navbar with 3 buttons\n    return navbar\n}\n\n\nfunction updateActiveStatus(theButton){\n    // get all the nav buttons from the nav bar \n    const navButtons = document.querySelectorAll('.nav-button')\n    // Remove active from every button except for theButton\n    navButtons.forEach(button => {\n        if (button !== theButton){\n            button.classList.remove('active')\n        }\n    })\n    // Update active on the theButton \n    theButton.classList.add('active')\n}\n\nfunction createMain(){\n    const main = document.createElement('main')\n    \n    const image = document.createElement(\"img\");\n    image.src = `images/Remy.png`;\n    image.alt = \"Image of Remy\"\n\n    main.append(image)\n\n    return main\n}\n\n\nfunction renderRatatouilleWebsite(){\n    const content = document.getElementById('content')\n\n    content.append(createHeader())\n    content.append(createMain())\n    // content.append(createFooter())\n\n    ;(0,_home__WEBPACK_IMPORTED_MODULE_1__.renderHomePage)()\n}\n\n\n\n//# sourceURL=webpack://ratatouille/./src/ratatouille.js?");
 
 /***/ })
 
