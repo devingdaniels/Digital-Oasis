@@ -13,5 +13,13 @@ createMenuTab(){
 }
 
 
+function renderHomePage(){
+    
+    alert('This will append the home page layout to the main container')
+
+}
+
+
+export {renderHomePage}
 
 
