@@ -16,6 +16,13 @@ nav{
     justify-content: center;
 }
 
+main{
+  background-color: antiquewhite;
+  height: 100px;
+  width: 80%;
+  margin: auto;
+}
+
 .ratatouilleTitle{
     font-size: 6rem;
     font-family: cursive;

@@ -1,9 +1,11 @@
 // Styling module
-import './style.css';
+import './style.css'
 // HTML page modules 
 import { renderHomePage } from './home';
 import { renderMenuPage } from './menu';
 import { renderContactPage } from './contact';
+
+
 
 function createHeader(){
     // Main header element 
@@ -81,7 +83,15 @@ function updateActiveStatus(theButton){
 }
 
 function createMain(){
-    return "hello"
+    const main = document.createElement('main')
+    
+    const image = document.createElement("img");
+    image.src = './images/Remy.png'
+    image.alt = "Image of Remy"
+
+    main.append(image)
+
+    return main
 }
 
 
@@ -92,7 +102,7 @@ function renderRatatouilleWebsite(){
     content.append(createMain())
     // content.append(createFooter())
 
-    
+    renderHomePage()
 }
 
 export {renderRatatouilleWebsite}

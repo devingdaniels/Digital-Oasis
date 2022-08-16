@@ -1,21 +1,17 @@
 import './style.css';
 
 
-export default class HomePage{
+function test(){
+    const test = document.createElement('h1')
     
-createMenuTab(){
-        const el = document.createElement('button')
-        el.innerHTML = "menu"
-        el.backgroundColor = "blue";
-        return el
-    }
-    
+    return test
 }
 
 
 function renderHomePage(){
+    const main = document.querySelector('main')
     
-    alert('This will append the home page layout to the main container')
+    main.append(test())
 
 }
 
