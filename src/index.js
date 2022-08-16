@@ -1,1 +1,9 @@
-alert('hello world from webpack')
+import HomePage from "./homepage"
+
+const content = document.getElementById('content')
+
+
+
+
+
+
