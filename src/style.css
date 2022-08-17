@@ -17,10 +17,10 @@ nav{
 }
 
 main{
-  background-color: antiquewhite;
-  height: 100px;
-  width: 80%;
-  margin: auto;
+  
+  
+  /* width: 80%;
+  margin: auto; */
 }
 
 .ratatouilleTitle{
@@ -30,6 +30,24 @@ main{
 
 /* HEADER SECTION END */
 
+
+/* FOOTER SECTION */
+
+.footer-container{
+  background-color: rgb(201, 195, 195);
+  color: black;
+  padding: 10px 0px 5px 0px;
+  font-size: 20px;
+  text-align: center;
+}
+.gitLink {
+  text-decoration: none;
+  color: black;
+}
+
+.gitLink:hover{
+  color: red;
+}
 
 /* BUTTON STYLING START*/
 

@@ -13,7 +13,7 @@ module.exports =
     devServer: {
         static: './dist',
       },
-    module: {
+      module: {
         rules: [
           {
             test: /\.css$/i,
@@ -24,5 +24,7 @@ module.exports =
             type: 'asset/resource',
           },
         ],
-      },
+      },    
 };
+
+

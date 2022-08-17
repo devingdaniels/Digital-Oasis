@@ -1,16 +1,3 @@
-// export all the menu content that will be appended to "content"
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 function renderMenuPage(){

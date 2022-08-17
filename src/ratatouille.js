@@ -6,7 +6,6 @@ import { renderMenuPage } from './menu';
 import { renderContactPage } from './contact';
 
 
-
 function createHeader(){
     // Main header element 
     const header = document.createElement('header')
@@ -68,7 +67,6 @@ function createNavbar(){
     return navbar
 }
 
-
 function updateActiveStatus(theButton){
     // get all the nav buttons from the nav bar 
     const navButtons = document.querySelectorAll('.nav-button')
@@ -83,25 +81,36 @@ function updateActiveStatus(theButton){
 }
 
 function createMain(){
-    const main = document.createElement('main')
-    
-    const image = document.createElement("img");
-    image.src = './images/Remy.png'
-    image.alt = "Image of Remy"
-
-    main.append(image)
-
+    const main = document.createElement('main') 
+    main.id = 'main'
     return main
+}
+
+function createFooter(){
+    const footer = document.createElement('footer')
+    const container = document.createElement('p')
+    container.classList.add('footer-container') 
+    container.innerHTML = " Copyright ©"
+    var date = new Date().getFullYear()
+    container.innerHTML += " " + date
+    container.innerHTML += " Creator: "
+    const link = document.createElement('a')
+    link.href = "https://github.com/devingdaniels"
+    link.target = "_blank"
+    link.classList.add('gitLink')
+    link.innerHTML = "devingdaniels"
+    container.append(link)
+    footer.append(container)
+    return footer
 }
 
 
 function renderRatatouilleWebsite(){
     const content = document.getElementById('content')
-
+    
     content.append(createHeader())
     content.append(createMain())
-    // content.append(createFooter())
-
+    content.append(createFooter())
     renderHomePage()
 }
 
