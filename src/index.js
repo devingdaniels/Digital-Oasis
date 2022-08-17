@@ -1,3 +1,3 @@
-import { renderRatatouilleWebsite } from "./ratatouille";
+import { renderWebsite } from "./digital.oasis";
 // render the initial site 
-renderRatatouilleWebsite()
+renderWebsite()

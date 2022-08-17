@@ -2,9 +2,21 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    color: white;
 }
 
 /* HEADER SECTION START */
+body{
+  background-image: url("./assets/main-background.jpg");
+
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 
 header{
     text-align: center;
@@ -14,16 +26,15 @@ nav{
     display: flex;
     gap: 2%;
     justify-content: center;
+    margin: 10px 0 20px 0;
 }
 
 main{
-  
-  
-  /* width: 80%;
-  margin: auto; */
+  width: 80%;
+  margin: auto;
 }
 
-.ratatouilleTitle{
+.restaurantTitle{
     font-size: 6rem;
     font-family: cursive;
 }
@@ -31,22 +42,24 @@ main{
 /* HEADER SECTION END */
 
 
-/* FOOTER SECTION */
 
+/* FOOTER SECTION */
 .footer-container{
-  background-color: rgb(201, 195, 195);
-  color: black;
   padding: 10px 0px 5px 0px;
   font-size: 20px;
   text-align: center;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1%;
 }
 .gitLink {
   text-decoration: none;
-  color: black;
 }
 
 .gitLink:hover{
-  color: red;
+  color: blue;
 }
 
 /* BUTTON STYLING START*/
@@ -65,7 +78,7 @@ main{
   line-height: 20px;
   margin: 0;
   outline: none;
-  padding: 13px 23px;
+  padding: 7px 16px;
   position: relative;
   text-align: center;
   text-decoration: none;

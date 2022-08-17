@@ -4,12 +4,23 @@
 
 
 
+function createContent(){
+
+    const test = document.createElement('h1')
+
+    test.innerHTML = "contact page"
+
+    return test
+}
+
 
 
 
 function renderContactPage(){
     
-    alert('This will append the contact page layout to the main container')
+    const main = document.getElementById('main') 
+
+    main.append(createContent())
 
 }
 

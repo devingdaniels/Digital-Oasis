@@ -1,0 +1,30 @@
+
+.homePageSection{
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+    width: 90%;
+  }
+  
+  .rightSection{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .mainCafeImage{
+    display: block;
+    max-width: 80%;
+    height: auto;
+    margin: 0;
+  }
+  
+  
+  .rightSection .child{
+    
+  }
+  
+  
+  
+  
+  

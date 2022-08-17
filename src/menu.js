@@ -1,8 +1,26 @@
+import './menu.style.css'
 
+
+function createContent(){
+
+    const test = document.createElement('h1')
+
+    test.innerHTML = "menu page"
+
+    return test
+}
+
+
+
+function menuItem(){
+    
+}
 
 function renderMenuPage(){
-    
-    alert('This will append the menu page layout to the main container')
+   const main = document.getElementById('main') 
+
+   main.append(createContent())
+   
 
 }
 

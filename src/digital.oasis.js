@@ -1,5 +1,5 @@
 // Styling module
-import './style.css'
+import './main.style.css'
 // HTML page modules 
 import { renderHomePage } from './home';
 import { renderMenuPage } from './menu';
@@ -11,8 +11,8 @@ function createHeader(){
     const header = document.createElement('header')
     // create an H1 for the title 
     const restaurantTitle = document.createElement('h1')
-    restaurantTitle.classList.add('ratatouilleTitle')
-    restaurantTitle.innerHTML = "Ratatouille"
+    restaurantTitle.classList.add('restaurantTitle')
+    restaurantTitle.innerHTML = "Digital Oasis"
     // Add the restaurant title to the header
     header.append(restaurantTitle)
     // After title, append the nav bar with nav buttons
@@ -32,6 +32,7 @@ function createNavbar(){
         // check if page needs to be updated
         if (homeButton.classList.contains('active')) return
         updateActiveStatus(homeButton)
+        clearMainContent()
         renderHomePage()
     })
 
@@ -43,6 +44,7 @@ function createNavbar(){
          // check if page needs to be updated
          if (menuButton.classList.contains('active')) return
          updateActiveStatus(menuButton)
+         clearMainContent()
          renderMenuPage()
     })
 
@@ -54,6 +56,7 @@ function createNavbar(){
          // check if page needs to be updated
          if (contactButton.classList.contains('active')) return
          updateActiveStatus(contactButton)
+         clearMainContent()
          renderContactPage()
     })
 
@@ -68,6 +71,9 @@ function createNavbar(){
 }
 
 function updateActiveStatus(theButton){
+
+    console.log(theButton)
+
     // get all the nav buttons from the nav bar 
     const navButtons = document.querySelectorAll('.nav-button')
     // Remove active from every button except for theButton
@@ -86,14 +92,18 @@ function createMain(){
     return main
 }
 
+function clearMainContent(){
+    const main = document.getElementById('main')
+    main.innerHTML = ''
+}
+
 function createFooter(){
     const footer = document.createElement('footer')
     const container = document.createElement('p')
     container.classList.add('footer-container') 
     container.innerHTML = " Copyright ©"
     var date = new Date().getFullYear()
-    container.innerHTML += " " + date
-    container.innerHTML += " Creator: "
+    container.innerHTML += " " + date + " "
     const link = document.createElement('a')
     link.href = "https://github.com/devingdaniels"
     link.target = "_blank"
@@ -105,13 +115,16 @@ function createFooter(){
 }
 
 
-function renderRatatouilleWebsite(){
+function renderWebsite(){
     const content = document.getElementById('content')
     
     content.append(createHeader())
     content.append(createMain())
     content.append(createFooter())
+
+    
+    updateActiveStatus(document.querySelector(".nav-button"))
     renderHomePage()
 }
 
-export {renderRatatouilleWebsite}
+export {renderWebsite}
