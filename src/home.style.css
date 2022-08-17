@@ -25,6 +25,23 @@
     
   }
   
+
+  @media (max-width: 860px){
+    .mainCafeImage{
+      display: none;
+    }
+
+    .rightSection{
+      padding: 10px;
+      border: .5px solid rgb(193, 199, 193);
+    }
+    .rightSection .child{
+      margin: 20px 0 20px 0;
+    }
+
+
+
+  }
   
   
   
