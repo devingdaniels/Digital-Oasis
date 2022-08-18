@@ -24,9 +24,9 @@ header{
 
 nav{
     display: flex;
-    gap: 2%;
+    gap: 7%;
     justify-content: center;
-    margin: 10px 0 20px 0;
+    margin: 20px 0 40px 0;
 }
 
 main{

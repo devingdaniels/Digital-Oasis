@@ -6,7 +6,7 @@
     width: 90%;
   }
   
-  .rightSection{
+  .home-right-section{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -20,22 +20,24 @@
     border: 1px solid rgb(193, 199, 193);
   }
   
-  
-  .rightSection .child{
-    
+
+
+  @media (max-width: 1100px){
+    .home-right-section .child{
+      font-size: .9rem;
+    }
   }
-  
 
   @media (max-width: 860px){
     .mainCafeImage{
       display: none;
     }
 
-    .rightSection{
+    .home-right-section{
       padding: 10px;
       border: .5px solid rgb(193, 199, 193);
     }
-    .rightSection .child{
+    .home-right-section .child{
       margin: 20px 0 20px 0;
     }
 

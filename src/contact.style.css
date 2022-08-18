@@ -1,0 +1,15 @@
+.contactContainer iframe{
+    display: block;
+}
+
+.contactContainer{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.contact-right-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10%;
+}
