@@ -1,7 +1,3 @@
-.contactContainer iframe{
-    display: block;
-}
-
 .contactContainer{
     display: flex;
     justify-content: space-evenly;
